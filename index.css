@@ -1,0 +1,132 @@
+.page{
+
+    background: linear-gradient(rgba(20, 37, 228), #d3189b);
+    width: 100%;
+    height: 100vh;
+}
+body{
+    overflow-x: hidden;
+}
+nav{
+    border-bottom: 1px solid rgb(235, 203, 218, 0.5);
+    align-content: space-between;
+}
+.presentation button{
+
+    color: rgb(240, 168, 14);
+    font-size: 1.2em;
+    padding: 10px;
+    border: 2px solid rgb(240, 168, 14) ;
+    width: auto;
+    font-weight: bold;
+    margin: 10px auto;
+}
+a{
+    font-weight: 600;
+}
+.presentation button:hover{
+
+    background: rgb(240, 168, 14);
+}
+.lien{
+    margin-left: 500px;
+}
+.presentation img {
+
+    width: 550px;
+    height: 550px;
+   
+}
+h1{
+    text-align: center;
+    padding: 20px;
+
+}
+.niveau{
+
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    color: rgb(252, 251, 250);
+    border: 1px solid rgb(245, 244, 243);
+}
+hr{
+  
+    margin-top: 100px;
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 100px;
+    background-color:  rgba(80, 7, 80, 0.467);
+
+}
+.competence progress{
+
+    width: 100%;
+    margin: auto auto;
+    color: rgb(247, 246, 244);
+    height: 5px;
+}
+.competence{
+    margin: 20px auto;
+}
+.cursus{
+
+    padding-top: 50px;
+    margin-top: 100px;
+    color: rgb(240, 168, 14);
+    
+    
+}
+.savoir-faire{
+    top: 120px;
+    position: absolute;
+    visibility: hidden;
+    color: rgb(243, 242, 241);
+}
+body{
+
+    background: rgb(238, 236, 236);
+}
+.presentation .fidele{
+
+    margin-top: -80px;
+    text-align: center;
+    width: 550px;
+}
+.projet{
+    visibility: hidden;
+    top: 120px;
+    position: absolute;
+}
+.projet a{
+    font-size: 1.5em;
+}
+.projet div{
+    padding: 10px;
+    background-color: #ffffff10;
+    border-radius: 10px;
+    margin: 5px;
+}
+.projet div:hover{
+    transform: scale(1.05);
+}
+.text{
+    color:  rgb(240, 168, 14);
+}
+.savoir-faire h1, .projet h1{
+    color: rgb(240, 168, 14);
+}
+
+.contact{
+
+    margin-top: 130px;
+    font-size: 1.3em;
+    text-align: center;
+    width: 750px;
+    
+}
+.contact svg{
+    color: rgb(240, 168, 14);
+}
+
